@@ -1,0 +1,1 @@
+"""TasteTrail application modules."""

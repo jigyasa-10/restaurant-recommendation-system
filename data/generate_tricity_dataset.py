@@ -34,7 +34,7 @@ images = [
     "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80",
 ]
 rows, used = [], set()
-for idx in range(180):
+for idx in range(210):
     city = ["Chandigarh", "Mohali", "Panchkula"][idx % 3]
     cuisine = list(cuisines)[idx % len(cuisines)]
     area = locations[city][idx % len(locations[city])]
